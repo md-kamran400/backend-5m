@@ -19,7 +19,7 @@ const connect = async () => {
 };
 
 app.use("/users", userRouter);
-app.use("/posts",auth, PostRouter);
+app.use("/posts", PostRouter);
 
 
 const PORT = 4000
